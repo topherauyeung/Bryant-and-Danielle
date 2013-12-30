@@ -6,12 +6,51 @@
  */
 
 .section--wrapper {
+	margin-bottom: 50px;
+}
+
+.section--wrapper-gray {
+	margin-bottom: 50px;
+	background-color: #eff0f1;
+}
+
+.section--content {
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 
 }
 
-.section--wrapper-one {
+.section--content-one {
 	margin-top: -170px;
+}
+
+.section--content-two {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	text-align: center;
+}
+
+
+/* Styles for the Wedding Party Section */
+
+.headshot {
+	border-radius: 1000px;
+	display: inline-block;
+}
+
+.headshot-name {
+	font-size: 18px;
+	font-family: "adelle", serif;
+	color: #3E1335;
+	margin-bottom: 4px;
+}
+
+.headshot-tagline {
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #746e72;
+	font-family: "brandon-grotesque", sans-serif;
 }
