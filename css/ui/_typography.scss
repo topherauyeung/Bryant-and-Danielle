@@ -1,0 +1,61 @@
+/*------------------------------------*\
+    TYPOGRAPHY.CSS
+\*------------------------------------*/
+/**
+ * Utility classes for typographic treatments.
+ */
+
+a { color: #f33b6f; text-decoration: none; }
+a:visited { color: #f33b6f; text-decoration: none; }
+a:hover { color: #ffa0bb; text-decoration: none; }
+a:active { color: #f33b6f; text-decoration: none; }
+
+.caps { text-transform: uppercase; letter-spacing: 1px; }
+.undercaps { text-transform: lowercase; }
+
+.fw-normal { font-weight: 400; }
+.fw-bold { font-weight: 700; }
+
+.italics { font-style: italic; }
+
+.fc-purplegray--lt { color: #b1abaf; }
+.fc-purplegray--md { color: #746e72; }
+.fc-purplegray--dk { color: #483d44; }
+.fc-white { color: white; }
+
+.heading-style-01 {
+	color: #b1abaf;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'brandon-grotesque', 'Helvetica Neue', 'Helvetica', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.heading-style-02 {
+	color: #746e72;
+	font-size: 36px;
+	text-transform: lowercase;
+	font-weight: 700;
+	font-family: 'adelle', serif;
+	line-height: 48px;
+}
+
+.heading-style-02b {
+	color: #746e72;
+	font-size: 36px;
+	text-transform: lowercase;
+	font-weight: 700;
+	font-family: 'adelle', serif;
+	line-height: 48px;
+	margin-bottom: 55px;
+}
+
+.pull-quote {
+	font-style: italic;
+	margin-bottom: 20px;
+	font-size: 28px;
+	text-align: center;
+	display: inline-block;
+}
