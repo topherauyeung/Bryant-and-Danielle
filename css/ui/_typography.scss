@@ -33,6 +33,19 @@ a:active { color: #f33b6f; text-decoration: none; }
 	margin-bottom: 20px;
 }
 
+.heading-style-01b {
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'brandon-grotesque', 'Helvetica Neue', 'Helvetica', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	padding: 3px 10px;
+	background-color: #c0224f;
+}
+
 .heading-style-02 {
 	color: #746e72;
 	font-size: 36px;
@@ -52,6 +65,23 @@ a:active { color: #f33b6f; text-decoration: none; }
 	margin-bottom: 55px;
 }
 
+.heading-style-03 {
+	color: #746e72;
+	font-size: 24px;
+	text-transform: lowercase;
+	font-weight: 400;
+	font-family: 'adelle', serif;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.heading-style-04 {
+	color: #b1abaf;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'brandon-grotesque', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 16px;
+}
 .pull-quote {
 	font-style: italic;
 	margin-left: -55px;
