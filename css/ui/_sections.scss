@@ -14,6 +14,10 @@
 	background-color: #eff0f1;
 }
 
+.section--wrapper-grayb {
+	background-color: #eff0f1;
+}
+
 .section--wrapper-map {
 	margin-top: -50px;
 	padding-top: 40px;
@@ -71,3 +75,73 @@
 	color: #746e72;
 	font-family: "brandon-grotesque", sans-serif;
 }
+
+/* RSVP Styles */
+
+.input--default {
+	width: 100%;
+	border: none;
+	padding: 12px 15px;
+	background-color: #dddddd;
+	outline: none;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+.input--default:focus {
+	background-color: white;
+}
+
+.invisible {
+	display: none;
+}
+
+.rsvp-button {
+	padding: 8px 15px;
+	background-color: #1d1b40;
+	display: inline-block;
+}
+.rsvp-button:visited { background-color: #1d1b40; }
+.rsvp-button:hover { background-color: #423f6b; }
+.rsvp-button:active { background-color: #1d1b40; }
+
+.flag {
+    display: table;
+    width: 100%;
+}
+
+    .flag__image,
+    .flag__body {
+        display: table-cell;
+        vertical-align: middle;
+
+        .flag--top & {
+            vertical-align: top;
+        }
+
+        .flag--bottom & {
+            vertical-align: bottom;
+        }
+
+    }
+
+    .flag__image {
+        padding-right: 10px;
+
+        > img {
+            display: block;
+            max-width: none;
+        }
+
+        .flag--rev & {
+            padding-right: 0;
+            padding-left: 10px;
+        }
+
+    }
+
+    .flag__body {
+        width: 100%;
+    }

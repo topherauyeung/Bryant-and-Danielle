@@ -203,6 +203,31 @@
 			</section>
 		</article>
 
+
+		<article class="section--wrapper-grayb">
+			<section class="section--content cf soft--ends flag">
+				<h1 id="RSVP" class="flag__image push--bottom push--top tk-brandon-grotesque giga float--left fc-purplegray--lt">
+					RSVP
+				</h1>
+				<div class="push--left flag__body">
+					<input type="text" id="pwd" placeholder="Please enter the password on the back of your invitation" class="input--default push--left">
+					<p id="hidden-rsvp-link" class="invisible push--left flush--bottom "><a href="https://docs.google.com/forms/d/1PbfnYrc7EOptMrm3c4kS0ZXEi6Ll1aV-U1aZCj0AKBU/viewform" class="push-half--top rsvp-button epsilon"><span class="fc-white">View RSVP Form >></span></a></p>
+				</div>
+				<p></p>
+			</section>
+		</article>
+
 		<script src="js/smooth-scroll.js"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			$('#pwd').on('keyup', function() {
+				if (this.value.trim().toLowerCase() == 'brydan') {
+					$('#hidden-rsvp-link').show("fast");
+				}
+				else {
+					$('#hidden-rsvp-link').hide("fast");
+				}
+			});
+		</script>
 	</body>
 </html>
